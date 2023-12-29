@@ -16,6 +16,7 @@ Check your system's maximum column with the pd.options.display.max_column statem
 Increase the maximum number of rows to display the entire DataFrame.
 
 ## PROGRAM:
+```
 #DEVELOPED BY : karthi keyan k
 #REGISTER NUMBER : 23013936
 
@@ -25,6 +26,7 @@ print(df.head(10))
 print(df.tail())
 print("column",len(df.axes[0]))
 print("rows",len(df.axes[1]))
+```
 
 ## OUTPUT:
 ![image](https://github.com/Karthi051/Read-from-CSV/assets/148327224/485f2715-99f4-4510-b277-ac7ed5ecf91b)
